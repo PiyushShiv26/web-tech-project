@@ -1,0 +1,52 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: var(--color-gray-dark);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--color-text);
+  margin-right: 2rem;
+}
+
+.links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.link {
+  color: var(--color-text-muted);
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.link:hover,
+.link.active {
+  color: var(--color-text);
+}
+
+.userActions {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  margin-left: auto;
+}
+
+.welcomeText {
+  color: var(--color-text-muted);
+}
+
+.logoutButton {
+  background-color: transparent;
+  color: var(--color-text-muted);
+  padding: 0;
+}
+
+.logoutButton:hover {
+  background-color: transparent;
+  color: var(--color-error);
+}

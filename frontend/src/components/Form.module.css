@@ -1,0 +1,65 @@
+.formContainer {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: var(--color-gray-dark);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.formGroup label {
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
+.checkboxGroup {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.checkboxGroup input {
+  width: auto;
+}
+
+.submitButton {
+  margin-top: 1rem;
+}
+
+.error,
+.success {
+  padding: 1rem;
+  border-radius: var(--border-radius);
+  text-align: center;
+  font-weight: 500;
+}
+
+.error {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: var(--color-error);
+  border: 1px solid var(--color-error);
+}
+
+.success {
+  background-color: rgba(40, 167, 69, 0.1);
+  color: var(--color-success);
+  border: 1px solid var(--color-success);
+}
