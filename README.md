@@ -55,7 +55,7 @@ Follow these instructions to get the project running locally on your machine.
 ### 1\. Clone the Repository
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/PiyushShiv26/web-tech-project.git
 cd web-tech-project
 ```
 
